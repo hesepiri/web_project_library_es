@@ -311,7 +311,7 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
-  column-gap: 20px;
+  column-gap: 40px;
 }
 
 .step {
@@ -387,17 +387,14 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
-  /*
-  display: ;
-  align-items: ;
-  column-gap: ;
-  */
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
