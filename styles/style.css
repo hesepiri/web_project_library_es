@@ -311,11 +311,11 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  column-gap: 20px;
 }
 
 .step {
   flex-basis: 220px;
-  margin: 20px;
 }
 
 .step__title {
@@ -341,10 +341,10 @@
   color: #ffffff;
   display: flex;
   flex-direction: column;
+  padding: 60px 80px;
 }
 
 .footer__columns {
-  margin: 60px 80px 100px;
   display: flex;
 }
 
@@ -387,6 +387,11 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  /*
+  display: ;
+  align-items: ;
+  column-gap: ;
+  */
 }
 
 .footer__social-icon {
@@ -398,5 +403,6 @@
 .footer__copyright {
   display: flex;
   font-size: 18px;
-  margin: 0px 80px 60px;
+  margin-top: 100px;
+  margin-bottom: 0px;
 }
